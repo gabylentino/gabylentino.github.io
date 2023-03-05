@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&family=Slackey&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #757471;
+  background: linear-gradient(90deg, #757471 26%, #757471 28%, #8a8985 35%, #777673 63%, #615e5c 83%); }
+
+header {
+  position: fixed;
+  width: 100%; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #ebc105; }
+
+h1 {
+  font-size: 100px;
+  padding: 10px;
+  color: #ebc105; }
+
+h2 {
+  font-family: 'Righteous', cursive;
+  font-size: 80px;
+  color: #ebc105; }
+
+h3 {
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+  color: #ebc105; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 70px;
+  background: #171717;
+  width: 100%;
+  color: #ebc105;
+  font-family: Righteous;
+  font-size: 15px;
+  padding: 10px; }
+  footer .redes a {
+    color: #ebc105; }
+  footer a:hover {
+    color: #8c3503; }
+
+.navbar {
+  background-color: #171717;
+  font-family: 'Righteous'; }
+  .navbar a {
+    padding: 20px 20px;
+    color: #ebc105;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px; }
+
+.navbar-brand {
+  font-family: 'Slackey';
+  color: #ebc105; }
+  .navbar-brand :hover {
+    color: #8c3503; }
+
+.nav-link:hover {
+  color: #8c3503; }
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1267682/pexels-photo-1267682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #hero h1 {
+    font-family: 'Slackey';
+    font-size: 150px; }
+
+#informacion {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 20px;
+  width: 100%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
+  #informacion .premio {
+    padding: 20px;
+    text-align: center; }
+  #informacion h2 {
+    font-size: 50px; }
+
+.info {
+  font-size: 30px;
+  text-align: center; }
+
+.titulo {
+  text-align: center;
+  padding: 100px 20px 20px !important;
+  font-family: 'Righteous', cursive; }
+
+h2 {
+  font-size: 60px !important;
+  text-align: center; }
+  h2 .veni {
+    font-size: 40px !important; }
+
+#bar {
+  padding: 40px; }
+
+.conocenos {
+  width: 100%;
+  height: 50%; }
+
+.fotos {
+  margin: 5px; }
+
+.imagen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .imagen img {
+    width: 400px;
+    height: 300px; }
+  .imagen img:hover {
+    border: 5px solid; }
+
+div div img {
+  margin: 35px; }
+
+.variedades {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  justify-content: center; }
+
+.tarjeta {
+  border: solid 2px #ebc105;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px; }
+  .tarjeta h4 {
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    color: #ebc105;
+    text-align: center; }
+
+.tarjeta-img {
+  width: 250px;
+  height: 200px;
+  margin-top: 25px; }
+
+.tarjeta-text {
+  font-family: "Roboto monoscape";
+  font-size: 16px;
+  color: #ebc105;
+  text-align: center; }
+
+/*desktop*/
+@media screen and (min-width: 992px) {
+  .tarjeta:hover {
+    transform: scale(1.05); } }
+
+nosotros {
+  text-align: center;
+  padding: 15px; }
+
+h3:hover {
+  color: #8c3503; }
+
+#video {
+  width: 100%;
+  height: 400px; }
+
+.mapa {
+  text-align: center;
+  color: #ebc105; }
+
+.formulario {
+  background-color: #171717;
+  width: 450px;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 7px; }
+
+.form {
+  font-family: Righteous;
+  font-size: 20px;
+  text-align: center;
+  color: #ebc105; }
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+input[type="email"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none; }
+
+input[type="submit"] {
+  background-color: #ebc105;
+  color: #f8f8f8;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+input:hover {
+  color: #8c3503; }
