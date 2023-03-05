@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(117, 116, 113);
+  background: linear-gradient(
+    90deg,
+    rgba(117, 116, 113, 1) 26%,
+    rgba(117, 116, 113, 1) 28%,
+    rgba(138, 137, 133, 1) 35%,
+    rgba(119, 118, 115, 1) 63%,
+    rgba(97, 94, 92, 1) 83%
+  );
+}
+header{
+  position: fixed;
+  width: 100%;
+}

@@ -1,0 +1,45 @@
+.variedades {
+    @include flex-column-center;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+
+.tarjeta {
+    border: solid 2px $color-primario;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    
+    & h4 {
+
+        font-family: 'Righteous';
+        font-size: 25px;
+        color: $color-primario;
+        text-align: center;
+    }
+}
+
+
+.tarjeta-img {
+    width: 250px;
+    height: 200px;
+    margin-top: 25px;
+    
+}
+
+.tarjeta-text {
+    font-family: "Roboto monoscape";
+    font-size: 16px;
+    color: $color-primario;
+    text-align: center;
+}
+/*desktop*/
+@media screen and (min-width:992px){
+    .tarjeta:hover{
+        transform: scale(1.05);
+    }
+}

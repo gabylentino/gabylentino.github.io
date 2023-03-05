@@ -1,0 +1,50 @@
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(https://images.pexels.com/photos/1267682/pexels-photo-1267682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    & h1 {
+        font-family: 'Slackey' ;
+        font-size: 150px;
+    }
+
+
+}
+
+#informacion {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 20px;
+    width: 100%;
+
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5));
+
+    & .premio {
+        padding: 20px;
+        text-align: center;
+
+    }
+    & h2 {
+        font-size: 10px!important;
+    }
+   
+
+}
+
+.info {
+    font-size: 30px;
+    text-align: center;
+  
+}

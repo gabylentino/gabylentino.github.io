@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&family=Slackey&display=swap');
+@import "./variables";
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: $color-primario;
+
+}
+
+h1 {
+    font-size: 100px;
+    padding: 10px;
+    color: $color-primario;
+
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+   
+    color: $color-primario;
+}
+
+h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    color: $color-primario;
+}
+

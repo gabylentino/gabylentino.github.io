@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: $color-fondo;
+  color: $color-primario;
+  font-family: Righteous;
+  font-size: 15px;
+  &  a {
+    color: $color-primario;
+  }
+  & a:hover {
+    color: $color-efecto;
+  }
+}
+
+  

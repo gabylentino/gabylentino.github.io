@@ -1,0 +1,51 @@
+.titulo {
+
+    text-align: center;
+    padding: 100px 20px 20px !important;
+    font-family: 'Righteous', cursive;
+}
+
+h2 {
+   
+    text-align: center;
+
+   
+}
+
+#bar {
+    padding: 40px;
+
+}
+
+.conocenos {
+    width: 100%;
+    height: 50%;
+
+
+}
+
+.fotos {
+    margin: 5px;
+}
+
+.imagen {
+    @include flex-row-center;
+    flex-direction: column;
+
+    img {
+        width: 400px;
+        height: 300px;
+    }
+
+    & img:hover {
+        border: 5px solid;
+    }
+}
+
+div {
+    div {
+        img {
+            margin: 35px;
+        }
+    }
+}
